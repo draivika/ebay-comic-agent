@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+  <title>eBay Comic Market Pulse</title>
+  <link>https://yourusername.github.io/ebay-comic-agent/</link>
+  <description>Weekly summary of eBay sold comic listings</description>
+  <item>
+    <title>Test Report</title>
+    <link>https://yourusername.github.io/ebay-comic-agent/report-a8d4c1.html</link>
+    <description>This is a placeholder summary.</description>
+    <pubDate>Wed, 30 Jul 2025 12:00:00 +0000</pubDate>
+  </item>
+</channel>
+</rss>

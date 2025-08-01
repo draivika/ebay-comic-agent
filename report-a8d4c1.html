@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <meta name="robots" content="noindex">
+  <title>Comic Market Report</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>Comic Market Report</h1>
+  <p>This is a placeholder. When the script runs, it will generate the headline and top item here.</p>
+
+  <h2>4-Week Average Price Trend</h2>
+  <canvas id="trendChart" width="400" height="200"></canvas>
+
+  <script>
+    fetch('data/history.json')
+      .then(response => response.json())
+      .then(data => {
+        const labels = data.weeks.map(week => week.date);
+        const prices = data.weeks.map(week => week.average_price);
+        new Chart(document.getElementById('trendChart'), {
+          type: 'line',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: 'Avg Price ($)',
+              data: prices,
+              fill: false,
+              borderColor: 'blue',
+              tension: 0.1
+            }]
+          },
+          options: {
+            responsive: true,
+            plugins: {
+              legend: {
+                display: true
+              }
+            }
+          }
+        });
+      });
+  </script>
+</body>
+</html>
