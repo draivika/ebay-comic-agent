@@ -1,0 +1,68 @@
+{
+  "headline": "Market Watch: Average Prices Up 14%, Top Sale Hits $4,200",
+  "summary": "This week\u2019s comic market saw a healthy bump with average prices rising 14%. The top sale was an Amazing Spider-Man #129 CGC 9.6 at $4,200. CGC counts also rose slightly across key modern issues.",
+  "top_sales": [
+    {
+      "title": "Amazing Spider-Man #129 (CGC 9.6)",
+      "price": 4200,
+      "link": "https://example.com/asm129",
+      "thumbnail": "https://example.com/img1.jpg"
+    },
+    {
+      "title": "Hulk #181 (CGC 8.5)",
+      "price": 3650,
+      "link": "https://example.com/hulk181",
+      "thumbnail": "https://example.com/img2.jpg"
+    },
+    {
+      "title": "X-Men #266 (CGC 9.8)",
+      "price": 899,
+      "link": "https://example.com/xmen266",
+      "thumbnail": "https://example.com/img3.jpg"
+    },
+    {
+      "title": "Miles Morales #1 (Raw)",
+      "price": 105,
+      "link": "https://example.com/mm1",
+      "thumbnail": "https://example.com/img4.jpg"
+    },
+    {
+      "title": "Moon Knight #1 (Facsimile)",
+      "price": 18,
+      "link": "https://example.com/mk1",
+      "thumbnail": "https://example.com/img5.jpg"
+    }
+  ],
+  "gainers": [
+    {
+      "title": "Miles Morales #1",
+      "change_pct": 38
+    }
+  ],
+  "losers": [
+    {
+      "title": "X-Men #266",
+      "change_pct": -22
+    }
+  ],
+  "keyword_trends": [
+    "Moon Knight",
+    "Facsimile",
+    "Dawn McTeague",
+    "Venom 3"
+  ],
+  "indices": {
+    "modern_under_100": {
+      "avg": 82.4,
+      "change_pct": 5.3
+    },
+    "cgc_98": {
+      "avg": 402.6,
+      "change_pct": -1.4
+    },
+    "bronze_age": {
+      "avg": 278.1,
+      "change_pct": -2.1
+    }
+  }
+}

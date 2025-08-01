@@ -1,0 +1,20 @@
+{
+  "weeks": [
+    {
+      "date": "2025-07-07",
+      "average_price": 54.21
+    },
+    {
+      "date": "2025-07-14",
+      "average_price": 62.33
+    },
+    {
+      "date": "2025-07-21",
+      "average_price": 58.45
+    },
+    {
+      "date": "2025-07-28",
+      "average_price": 66.79
+    }
+  ]
+}
